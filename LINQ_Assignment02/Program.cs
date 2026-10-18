@@ -126,6 +126,13 @@ namespace LINQ.Models
             //    Console.WriteLine(product);
             //}
             #endregion
+
+            #region Q10 : Check All Products of "Seafood" In Stock
+            //var SeafoodProductsInStock = ProductList.Where(P=>P.Category == "Seafood")
+            //    .All(P=>P.UnitsInStock>0);
+
+            //Console.WriteLine($"All Seafood Products In Stock: {SeafoodProductsInStock}");
+            #endregion
         }
     } 
 }
