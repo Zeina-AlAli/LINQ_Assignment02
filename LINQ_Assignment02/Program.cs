@@ -22,6 +22,21 @@ namespace LINQ.Models
 
             #endregion
 
+            #region Q2 : Get products from "Beverages" category sorted by UnitInStuck
+
+            //var BeveragesProducts = ProductList.Where(P => P.Category == "Beverages")
+            //                                   .OrderByDescending(P => P.UnitsInStock)
+            //                                   .Select(P => P);
+
+            //foreach( var product in BeveragesProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+            #endregion
+
+
+
         }
     }
 }
