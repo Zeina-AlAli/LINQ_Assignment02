@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using LINQ.Models;
 using static LINQ.DataSources.Source;
 
 namespace LINQ.Models
@@ -35,7 +36,19 @@ namespace LINQ.Models
 
             #endregion
 
+            #region Q3 : List orders in 1997 or later
 
+            //var OrdersIn1997OrLater = from c in CustomerList
+            //                          from o in c.Orders
+            //                          where o.OrderDate.Year >= 1997
+            //                          select new { c.CustomerID, o.OrderDate};
+
+            //foreach(var order in OrdersIn1997OrLater)
+            //{
+            //    Console.WriteLine($"CustomerID= {order.CustomerID}, OrderDate= {order.OrderDate:d}");
+            //}
+
+            #endregion
 
         }
     }
