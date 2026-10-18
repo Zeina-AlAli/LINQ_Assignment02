@@ -115,6 +115,17 @@ namespace LINQ.Models
             //}
 
             #endregion
+
+            #region Q9 : Show products as long as price = 25
+            //var ProductsAt25 = ProductList.OrderBy(P => P.UnitPrice)
+            //    .TakeWhile(P => P.UnitPrice < 25)
+            //    .Select(P => P);    
+
+            //foreach(var product in ProductsAt25)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
-    }
+    } 
 }
