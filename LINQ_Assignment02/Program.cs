@@ -262,6 +262,11 @@ namespace LINQ.Models
             //Console.WriteLine($"First Product with UnitPrice greater than 50: \n{FirstProductGreaterThan50}");
             #endregion
 
+            #region Q23 : First Product with UnitPrice greater than 500
+            //var ProductGreaterThan500 = ProductList.FirstOrDefault(P=>P.UnitPrice>500 );
+            //Console.WriteLine($"First Product with UnitPrice greater than 500: \n{ProductGreaterThan500}");
+            #endregion
+
 
         }
     }
