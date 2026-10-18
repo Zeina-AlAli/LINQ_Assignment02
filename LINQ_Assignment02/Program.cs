@@ -213,7 +213,14 @@ namespace LINQ.Models
             //Console.WriteLine($"Total Units in Stock: {TotalUnitsInStock}");
             #endregion
 
+            #region Q17 : Cheapiest and Most Expensive Product
 
+            //var MostExpensive = ProductList.Max(P => P.UnitPrice);
+            //var Cheapest = ProductList.Min(P => P.UnitPrice);
+            //Console.WriteLine($"Most Expensive Product Price: {MostExpensive}");
+            //Console.WriteLine($"Cheapest Product Price: {Cheapest}");
+
+            #endregion
         }
     }
 }
