@@ -75,6 +75,21 @@ namespace LINQ.Models
 
             #endregion
 
+            #region Q6 : Reverse digits, 'i' second letter
+
+            //string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            //var reversedArr = Arr.Where(s => s[1] == 'i')
+            //    .Reverse()
+            //    .ToList();
+
+            //foreach(var digit in reversedArr)
+            //{
+            //    Console.WriteLine(digit);
+            //}
+
+            #endregion
         }
     }
+
 }
