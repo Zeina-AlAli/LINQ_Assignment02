@@ -241,6 +241,16 @@ namespace LINQ.Models
             //}
             #endregion
 
+            #region Q20 : Countries in list1 but not in list2 (case-insensitive)
+            //string[] list1 = { "Germany", "France", "UK", "Spain" }; 
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //var countriesInList1ButNotInList2 = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+            //foreach (var country in countriesInList1ButNotInList2)
+            //{
+            //    Console.WriteLine(country);
+            //}
+            #endregion
+
         }
     }
 }
