@@ -207,6 +207,13 @@ namespace LINQ.Models
 
 
             #endregion
+
+            #region Q16 : Total Units in Stock
+            //var TotalUnitsInStock = ProductList.Sum(P => P.UnitsInStock);
+            //Console.WriteLine($"Total Units in Stock: {TotalUnitsInStock}");
+            #endregion
+
+
         }
-    } 
+    }
 }
