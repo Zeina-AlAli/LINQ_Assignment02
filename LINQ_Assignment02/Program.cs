@@ -51,12 +51,26 @@ namespace LINQ.Models
             #endregion
 
             #region Q4 : Show Position along with productName
-            
+
             //var ProductsWithPosition = ProductList.Select((P, i)=> new { P.ProductName, Position = i + 1 });
 
             //foreach (var product in ProductsWithPosition)
             //{
             //    Console.WriteLine($"{product.Position}. {product.ProductName}");
+            //}
+
+            #endregion
+
+            #region Q5 : Sort array of strings by length then by case-insensitive sort of the words
+
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var SortedArr = Arr.OrderBy(s => s.Length)
+            //                   .ThenBy(s => s, StringComparer.OrdinalIgnoreCase);
+
+            //foreach(var str in SortedArr)
+            //{
+            //    Console.WriteLine(str);
             //}
 
             #endregion
