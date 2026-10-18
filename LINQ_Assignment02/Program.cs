@@ -285,7 +285,16 @@ namespace LINQ.Models
             //Console.WriteLine(string.Join(", ", EvenNumbers));
             #endregion
 
+            #region Q26 : ProductName concat CustomerName
+           // var res = ProductList.Select(P => P.ProductName).Take(3)
+           //     .Concat(CustomerList.Select(p => p.CustomerName).Take(3));
+
+           //foreach(var n in res)
+           // {
+           //     Console.WriteLine(n);
+           // }
+            #endregion
         }
-            
+
     }
 }
