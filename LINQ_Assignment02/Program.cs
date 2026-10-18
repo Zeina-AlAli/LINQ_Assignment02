@@ -133,6 +133,19 @@ namespace LINQ.Models
 
             //Console.WriteLine($"All Seafood Products In Stock: {SeafoodProductsInStock}");
             #endregion
+
+            #region Q11 : Check IDs contains 9
+            //int[] ids = { 3, 9, 13, 18 };
+            //var DoesIdsContains9 = ids.Contains(9);
+
+            //Console.Write($"Does IDs contains 9? ");
+            //if (DoesIdsContains9)
+            //{
+            //    Console.Write("Yes");
+            //}
+            //else Console.Write("No");
+            #endregion
+
         }
     } 
 }
