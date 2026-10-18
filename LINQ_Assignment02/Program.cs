@@ -89,7 +89,19 @@ namespace LINQ.Models
             //}
 
             #endregion
+
+            #region Q7 : Get Top 3 expensive products 
+
+            //var TopPruducts = ProductList.OrderByDescending(P => P.UnitPrice)
+            //    .Take(3)
+            //    .Select((P, I) => new { P.ProductName, P.UnitPrice, Position = I + 1 });
+
+            //foreach (var product in TopPruducts)
+            //{
+            //    Console.WriteLine($"{product.Position}. {product.ProductName} - {product.UnitPrice}");
+            //}
+
+            #endregion
         }
     }
-
 }
