@@ -267,6 +267,16 @@ namespace LINQ.Models
             //Console.WriteLine($"First Product with UnitPrice greater than 500: \n{ProductGreaterThan500}");
             #endregion
 
+            #region Q24 :Multiplication Table of 7 using Enumerable.Range and Select
+            //var MultiplicationTable = Enumerable.Range(1, 10)
+            //    .Select(X => X * 7);
+            //for(int i  = 0; i<MultiplicationTable.Count();i++)
+            //{
+            //    Console.WriteLine($"{i+1} * 7 = {MultiplicationTable.ElementAt(i)}");
+            //}
+
+            #endregion
+
 
         }
     }
