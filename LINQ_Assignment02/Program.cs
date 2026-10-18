@@ -163,7 +163,16 @@ namespace LINQ.Models
 
             #endregion
 
+            #region Q13 : Show products name with category
+                
+            //var ProductsWithCategory = ProductList.GroupBy(P => P.Category)
+            //    .Select(P => new { Category = P.Key, ProductNames = P.Select(p => p.ProductName) });
+            //foreach (var product in ProductsWithCategory)
+            //{
+            //    Console.WriteLine($"{product.Category}:{string.Join(", ", product.ProductNames)}");
+            //}
 
+            #endregion
 
         }
     } 
