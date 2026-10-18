@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using LINQ.Models;
 using static LINQ.DataSources.Source;
 
@@ -277,7 +278,14 @@ namespace LINQ.Models
 
             #endregion
 
+            #region Q25 : Even Numbers Between 1 and 30 
+            //var EvenNumbers = Enumerable.Range(1, 15)
+            //    .Select(X => X * 2);
+
+            //Console.WriteLine(string.Join(", ", EvenNumbers));
+            #endregion
 
         }
+            
     }
 }
