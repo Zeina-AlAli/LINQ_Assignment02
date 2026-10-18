@@ -251,6 +251,13 @@ namespace LINQ.Models
             //}
             #endregion
 
+            #region Q21 : Products with ID 18 using ToDictionary
+            //Dictionary<int, Product> ProductDictionary = ProductList.ToDictionary(p => p.ProductID);
+            //var ProductWithID18 = ProductDictionary[18];
+            //Console.WriteLine($"Product with ID 18: {ProductWithID18}");
+            #endregion
+
+
         }
     }
 }
