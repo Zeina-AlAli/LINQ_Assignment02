@@ -185,6 +185,28 @@ namespace LINQ.Models
             //    Console.WriteLine(category.Category);
             //}
             #endregion
+
+            #region Q15 : Count customers in each country and total orders for each country
+
+            //var OrdersInCountries = from c in CustomerList
+            //                        from o in c.Orders
+            //                        group c by c.Country into CountryGroup
+            //                        select new
+            //                        {
+
+            //                            Country = CountryGroup.Key,
+            //                            CustomerCount = CountryGroup.Count(),
+            //                            TotalOrderCount = CountryGroup.SelectMany(c => c.Orders).Sum(o => o.OrderID)
+
+            //                        };
+            //foreach (var country in OrdersInCountries)
+            //{
+            //    Console.WriteLine($"Country: {country.Country}, Customer Count: {country.CustomerCount}, Total Order Count: {country.TotalOrderCount}");
+            //}
+
+
+
+            #endregion
         }
     } 
 }
