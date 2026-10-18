@@ -146,6 +146,25 @@ namespace LINQ.Models
             //else Console.Write("No");
             #endregion
 
+            #region Q12 : Count products in each category
+
+            //var ProductsWithCategory = ProductList.GroupBy(P => P.Category)
+            //    .Select(P => new {Category = P.Key, ProductCount = P.Count() });
+
+            //foreach (var product in ProductsWithCategory)
+            //{
+            //    Console.WriteLine($"{product.Category}: {product.ProductCount}");
+            //}
+
+            ////---------------------------------------------------------------------------------------
+            ////var ProductsWithCategory = ProductList.GroupBy(P => P.Category)  //>>>> Counts Groubs
+            ////    .Count(); 
+            ////Console.WriteLine($"Total Categories: {ProductsWithCategory}");
+
+            #endregion
+
+
+
         }
     } 
 }
