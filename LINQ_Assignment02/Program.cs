@@ -102,6 +102,19 @@ namespace LINQ.Models
             //}
 
             #endregion
+
+            #region Q8 : Show page 2 of Products
+
+            //var Page2Products = ProductList.Skip(5)
+            //    .Take(5)
+            //    .Select((P, I) => new { P.ProductName, P.UnitPrice, position = I + 1 });
+
+            //foreach (var product in Page2Products)
+            //{
+            //    Console.WriteLine($"{product.position}. {product.ProductName} - {product.UnitPrice}");
+            //}
+
+            #endregion
         }
     }
 }
