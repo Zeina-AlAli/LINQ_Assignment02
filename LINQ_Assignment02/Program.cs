@@ -149,7 +149,7 @@ namespace LINQ.Models
             #region Q12 : Count products in each category
 
             //var ProductsWithCategory = ProductList.GroupBy(P => P.Category)
-            //    .Select(P => new {Category = P.Key, ProductCount = P.Count() });
+            //    .Select(P => new { Category = P.Key, ProductCount = P.Count() });
 
             //foreach (var product in ProductsWithCategory)
             //{
@@ -164,7 +164,7 @@ namespace LINQ.Models
             #endregion
 
             #region Q13 : Show products name with category
-                
+
             //var ProductsWithCategory = ProductList.GroupBy(P => P.Category)
             //    .Select(P => new { Category = P.Key, ProductNames = P.Select(p => p.ProductName) });
             //foreach (var product in ProductsWithCategory)
@@ -174,6 +174,17 @@ namespace LINQ.Models
 
             #endregion
 
+            #region Q14: Categorys with more than 3 products
+
+            //var res = ProductList.GroupBy(P => P.Category)
+            //    .Where(P => P.Count() > 3)
+            //    .Select(P => new { Category = P.Key });
+
+            //foreach(var category in res)
+            //{
+            //    Console.WriteLine(category.Category);
+            //}
+            #endregion
         }
     } 
 }
