@@ -221,6 +221,15 @@ namespace LINQ.Models
             //Console.WriteLine($"Cheapest Product Price: {Cheapest}");
 
             #endregion
+
+            #region Q18 : Distinct list of all product categories
+
+            //var DistinctCategories = ProductList.Select(P => P.Category).Distinct();
+            //foreach (var category in DistinctCategories)
+            //{
+            //    Console.WriteLine(category);
+            //}
+            #endregion
         }
     }
 }
