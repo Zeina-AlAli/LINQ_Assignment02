@@ -286,13 +286,24 @@ namespace LINQ.Models
             #endregion
 
             #region Q26 : ProductName concat CustomerName
-           // var res = ProductList.Select(P => P.ProductName).Take(3)
-           //     .Concat(CustomerList.Select(p => p.CustomerName).Take(3));
+            // var res = ProductList.Select(P => P.ProductName).Take(3)
+            //     .Concat(CustomerList.Select(p => p.CustomerName).Take(3));
 
-           //foreach(var n in res)
-           // {
-           //     Console.WriteLine(n);
-           // }
+            //foreach(var n in res)
+            // {
+            //     Console.WriteLine(n);
+            // }
+            #endregion
+
+            #region Q27 : Pair each product sold to customer 
+
+            //var PairProductCompany = ProductList.Select(P => P.ProductName).Zip(CustomerList.Select(p => p.CustomerName), (pr, c) => $"{pr} sold to {c}");
+           
+            //foreach (var res in PairProductCompany)
+            //{
+            //    Console.WriteLine(res);
+            //}
+
             #endregion
         }
 
